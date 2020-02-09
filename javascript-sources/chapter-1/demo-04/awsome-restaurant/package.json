@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "aws s3 sync --profile s3_publisher --delete ./dist s3://awsome-restaurant"
+    "deploy": "aws s3 sync --profile s3_publisher --delete ./dist s3://fleet-sam-app-bucket"
   },
   "dependencies": {
     "uuid": "^3.3.2",

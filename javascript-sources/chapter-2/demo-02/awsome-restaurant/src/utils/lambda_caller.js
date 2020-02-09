@@ -52,7 +52,7 @@ export class LambdaCaller {
   }
 
   getLambdaClient() {
-    let swf = new AWS.SWF();
+    //let swf = new AWS.SWF();
     return new AWS.Lambda({
       region: AWS_REGION,
       apiVersion: "2015-03-31"

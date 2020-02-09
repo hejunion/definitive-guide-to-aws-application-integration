@@ -5,10 +5,12 @@ module.exports = {
         // AWS.config.credentials = new AWS.CognitoIdentityCredentials({
         //     IdentityPoolId: 'us-west-2:fa17c899-4319-4048-a8ff-fa2a7fd73868',
         // });
+        // Initialize the Amazon Cognito credentials provider
         AWS.config.region = 'us-east-1'; // Region
         AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-            IdentityPoolId: 'us-east-1:d02dc5fc-bec0-4863-8e30-5b2291203121',
+            IdentityPoolId: 'us-east-1:07c2f2e4-d23a-4190-8e34-fae91b014656',
         });
+
     },
     get_time: function () {
         return new Date().toISOString().replace('Z', '')

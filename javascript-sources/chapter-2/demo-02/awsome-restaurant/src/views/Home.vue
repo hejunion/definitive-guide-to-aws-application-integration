@@ -1,9 +1,9 @@
 <template>
   <div class="home flex-container">
     <div style="width: 100vw;">
-      <img alt="Vue logo" src="/img/wide-logo.jpg" />
+      <img alt="Vue logo" src="/img/Cineplex_Logo.png" />
     </div>
-    <div class="flex-row">
+    <div class="row">
       <FoodItem
         v-for="item in this.$store.state.food_items"
         :key="item.id"

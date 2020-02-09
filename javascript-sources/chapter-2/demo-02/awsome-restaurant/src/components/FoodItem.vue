@@ -1,5 +1,5 @@
 <template>
-  <div class="main-view">
+  <div class="main-view col-sm-4">
     <h1>{{ item.name }}</h1>
     <div class="order-container">
       <img class="img-fluid" :src="item.image" :alt="item.name" />

@@ -16,22 +16,22 @@ export default new Vuex.Store({
     ordered_items: new Map(),
     food_items: [
       {
-        name: "Arugula Crust",
-        image: "/img/arugula-crust-dish-208537.jpg",
+        name: "Star Wars: The Rise Of Skywalker",
+        image: "/img/StarWar_27417_320_470.jpg",
         id: 100,
         price: 11.15,
         ordered: false
       },
       {
-        name: "Beef Cheese Circle",
-        image: "/img/beef-cheese-circle-262977.jpg",
+        name: "Frozen II",
+        image: "/img/Frozen_24181_320_470.jpg",
         id: 200,
         price: 12.45,
         ordered: false
       },
       {
-        name: "Burrito Chicken",
-        image: "/img/burrito-chicken-close-up-461198.jpg",
+        name: "Birds Of Prey",
+        image: "/img/Birds_27739_320_470.jpg",
         id: 300,
         price: 9.75,
         ordered: false

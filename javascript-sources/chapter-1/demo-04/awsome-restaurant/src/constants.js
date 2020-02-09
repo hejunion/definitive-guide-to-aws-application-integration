@@ -1,7 +1,7 @@
 // CHANGE THESE CONSTANTS TO CORRESPOND WITH YOUR CONFIGURATION
-export const AWS_REGION = "us-west-2";
+export const AWS_REGION = "us-east-1";
 export const COGNITO_IDENTITY_POOL_ID =
-  "us-west-2:eac50233-9edd-4082-a12c-16120e9b6902";
+  "us-east-1:07c2f2e4-d23a-4190-8e34-fae91b014656";
 
 export const SAVE_ORDER_LAMBDA = "save-order";
 export const CANCEL_ORDER_LAMBDA = "cancel-order";
